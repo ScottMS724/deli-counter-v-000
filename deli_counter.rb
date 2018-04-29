@@ -8,7 +8,7 @@ def line(katz_deli)
   else 
     katz_deli.each do |name|
       newArray.push("#{counter}. #{name}")
-      
+      counter += 1
   end
 end
 

@@ -11,7 +11,6 @@ def line(katz_deli)
       counter += 1 
     end
     puts "The line is currently: #{newArray.join(" ")}"
-  else 
   end
 end
 

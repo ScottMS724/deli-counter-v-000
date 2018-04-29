@@ -10,7 +10,7 @@ def line(katz_deli)
       newArray.push("#{counter}. #{name}")
       counter += 1 
     end
-    puts "The line is currently: #{newArray.join(" ")"
+    puts "The line is currently: #{newArray.join(" ")}"
   end
 end
 

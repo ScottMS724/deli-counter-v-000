@@ -10,6 +10,7 @@ def line(katz_deli)
       newArray.push("#{counter}. #{name}")
       counter += 1 
     end
+    puts 
   end
 end
 

@@ -5,8 +5,6 @@ def line(katz_deli)
     puts "The line is currently empty."
   else 
     katz_deli.each_with_index{|name, index| puts "Currently serving #{index + 1}. #{name} "
-    puts "Currently serving #{index + 1}. #{name} "
-    end
   end
 end
 
